@@ -1,0 +1,9 @@
+[package]
+name = "noiseless-tracing-actix-web"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+actix-web = { version = "4.2.1", default-features = false }
+tracing = { version = "0.1.37", default-features = false }
+tracing-actix-web = { version = "0.7.1", default-features = false }
